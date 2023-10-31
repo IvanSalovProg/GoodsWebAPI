@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3hBsVTqF2QY9GMbzlXDUrm5p1LCjtou3KJsV78Vz44cLIg5mz9wMid7IH9X/GeCi8/fcNX5KyWgtPCR+AkgHA==",
+  "dgSpecHash": "ypYEY/dFkrZwwbRkaR2iwgeb2TiGF0apyp0wy7Na6Mu7T2zmS4Lp46/1Ugqx2eAYQmqvVTea6TEd178MpYXVrQ==",
   "success": true,
   "projectFilePath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.data.sqlite\\6.0.24\\microsoft.data.sqlite.6.0.24.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.24\\microsoft.data.sqlite.core.6.0.24.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.24\\microsoft.entityframeworkcore.6.0.24.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.24\\microsoft.entityframeworkcore.abstractions.6.0.24.nupkg.sha512",

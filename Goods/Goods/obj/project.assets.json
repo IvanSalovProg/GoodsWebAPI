@@ -15,19 +15,6 @@
           }
         }
       },
-      "Microsoft.Data.Sqlite/6.0.24": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.24",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
       "Microsoft.Data.Sqlite.Core/6.0.24": {
         "type": "package",
         "dependencies": {
@@ -711,19 +698,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "Microsoft.Data.Sqlite/6.0.24": {
-      "sha512": "GOxcpKPhkT3drWQ12B2S0Gf+JPTEwuuvC1kJkTahefcfD0HFqIZCT5ZHE7vBiHv9bWYjfJsowG8h0xjLpyvAAA==",
-      "type": "package",
-      "path": "microsoft.data.sqlite/6.0.24",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/_._",
-        "microsoft.data.sqlite.6.0.24.nupkg.sha512",
-        "microsoft.data.sqlite.nuspec"
       ]
     },
     "Microsoft.Data.Sqlite.Core/6.0.24": {
@@ -1536,8 +1510,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Data.Sqlite >= 6.0.24",
       "Microsoft.EntityFrameworkCore >= 6.0.24",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.24",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.24",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.24",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -1582,11 +1556,13 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "Microsoft.Data.Sqlite": {
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.24, )"
           },
-          "Microsoft.EntityFrameworkCore": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.24, )"
           },

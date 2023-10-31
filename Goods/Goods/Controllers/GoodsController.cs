@@ -5,7 +5,7 @@ namespace Goods.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class GoodaController : Controller
+    public class GoodsController : Controller
     {
         [HttpGet]
         public Product Get()

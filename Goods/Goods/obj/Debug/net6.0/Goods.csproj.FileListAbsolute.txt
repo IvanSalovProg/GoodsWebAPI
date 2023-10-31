@@ -86,3 +86,5 @@ D:\Салов И.Д\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\refint\Goods.dll
 D:\Салов И.Д\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.pdb
 D:\Салов И.Д\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.genruntimeconfig.cache
 D:\Салов И.Д\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\ref\Goods.dll
+D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
