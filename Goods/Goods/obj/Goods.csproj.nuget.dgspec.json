@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Салов И.Д\\Goods\\Goods\\Goods.csproj": {}
+    "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj": {}
   },
   "projects": {
-    "D:\\Салов И.Д\\Goods\\Goods\\Goods.csproj": {
+    "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Салов И.Д\\Goods\\Goods\\Goods.csproj",
+        "projectUniqueName": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
         "projectName": "Goods",
-        "projectPath": "D:\\Салов И.Д\\Goods\\Goods\\Goods.csproj",
+        "projectPath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
         "packagesPath": "C:\\Users\\Ivan.Salov\\.nuget\\packages\\",
-        "outputPath": "D:\\Салов И.Д\\Goods\\Goods\\obj\\",
+        "outputPath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ivan.Salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,17 @@
           "dependencies": {
             "Microsoft.Data.Sqlite": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.24, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
