@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "41HMiP1N4qXC67A55EPyxvyNaa2HBGgXmyra69mxq0UIUImKXmTLGPHyCJ8Wm7ljR9AEpY8asCUW0/D4tlWR8Q==",
-  "success": false,
+  "dgSpecHash": "gQjoBV6ZFgKEHnVzRhsqfQB2tf+EyaS7tvHZTC/NJGzWPBtl+6JsUc/frk35MpRWl75cmaWTXyopuwXKXEOyLA==",
+  "success": true,
   "projectFilePath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -45,15 +45,5 @@
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Не удалось найти проект \"D:\\Салов И.Д\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
