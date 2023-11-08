@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Goods.Models
 {
@@ -7,6 +8,11 @@ namespace Goods.Models
         [Key]
         public int Id { get; set; }
 
+        [ForeignKey(nameof(Group))]
+        public int GroupId { get; set; }
+
+        public Group? Group { get; set; }
+
         public int VendorCode { get; set; }
 
         public int Price { get; set; }
@@ -14,5 +20,9 @@ namespace Goods.Models
         public string NameGoods { get; set; }
 
         public string ProductCategory { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+        public DateTime UpdatedAt { get; set; }
     }
 }

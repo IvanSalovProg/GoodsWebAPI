@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ypYEY/dFkrZwwbRkaR2iwgeb2TiGF0apyp0wy7Na6Mu7T2zmS4Lp46/1Ugqx2eAYQmqvVTea6TEd178MpYXVrQ==",
-  "success": true,
+  "dgSpecHash": "41HMiP1N4qXC67A55EPyxvyNaa2HBGgXmyra69mxq0UIUImKXmTLGPHyCJ8Wm7ljR9AEpY8asCUW0/D4tlWR8Q==",
+  "success": false,
   "projectFilePath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ivan.Salov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Ivan.Salov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.24\\microsoft.data.sqlite.core.6.0.24.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.24\\microsoft.entityframeworkcore.6.0.24.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.24\\microsoft.entityframeworkcore.abstractions.6.0.24.nupkg.sha512",
@@ -42,5 +45,15 @@
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Ivan.Salov\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"D:\\Салов И.Д\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
