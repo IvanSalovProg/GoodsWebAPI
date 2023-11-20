@@ -1,4 +1,8 @@
-﻿namespace Goods.Models
+﻿using Goods.Models;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace GoodsCore.Models
 {
     public class GoodsGetDto
     {

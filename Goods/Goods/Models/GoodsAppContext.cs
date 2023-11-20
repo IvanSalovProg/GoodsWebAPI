@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Text.RegularExpressions;
+using GoodsCore.Models;
 
 namespace Goods.Models
 {
-    public class GoodsAppContext : DbContext
+    public class GoodAppContext : DbContext
         {
-            public DbSet<Product> Product { get; set; }
+            public DbSet<Good> Goods { get; set; }
 
            public DbSet<Group> Groups { get; set; }
 
-        public GoodsAppContext(DbContextOptions<GoodsAppContext> options) : base(options)
+        public GoodAppContext(DbContextOptions<GoodAppContext> options) : base(options)
             {
 
             }

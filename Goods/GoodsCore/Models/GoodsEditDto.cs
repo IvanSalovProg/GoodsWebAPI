@@ -1,4 +1,4 @@
-﻿namespace Goods.Models
+﻿namespace GoodsCore.Models
 {
     public class GoodsEditDto
     {
@@ -11,5 +11,7 @@
         public string NameGoods { get; set; }
 
         public string ProductCategory { get; set; }
+
+        public string Password { get; set; }
     }
 }

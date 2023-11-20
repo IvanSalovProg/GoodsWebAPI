@@ -1,3 +1,6 @@
+using GoodsMVC.Config;
+using GoodsMVC.Services;
+
 namespace GoodsMVC
 {
     public class Program
@@ -8,6 +11,13 @@ namespace GoodsMVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+
+            builder.Services.Configure<ApiConfig>(builder.Configuration.GetSection("ApiConfig"));
+
+            //var apiConfig = builder.Configuration.GetSection("ApiConfig").Get<ApiConfig>();
+
+            builder.Services.AddScoped<HttpClientService>();
 
             var app = builder.Build();
 
@@ -24,7 +34,7 @@ namespace GoodsMVC
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Goods}/{action=Index}/{id?}");
 
             app.Run();
         }

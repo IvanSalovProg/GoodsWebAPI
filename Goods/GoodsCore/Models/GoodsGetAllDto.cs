@@ -1,4 +1,6 @@
-﻿namespace Goods.Models
+﻿using Goods.Models;
+
+namespace GoodsCore.Models
 {
     public class GoodsGetAllDto
     {

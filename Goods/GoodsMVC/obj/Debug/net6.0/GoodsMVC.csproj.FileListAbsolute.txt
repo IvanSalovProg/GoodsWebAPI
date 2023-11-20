@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.AssemblyInfo.cs
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC\obj\Debug\net6.0\GoodsMVC.RazorAssemblyInfo.cs

@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\GoodsMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Goods/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Goods/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Goods/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Group/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Group/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Group/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP/Desktop/ИванУчеба/GoodsWebAPI/Goods/GoodsMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
