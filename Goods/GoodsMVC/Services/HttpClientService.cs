@@ -20,6 +20,8 @@ namespace GoodsMVC.Services
             using HttpClient client = new HttpClient();
 
             var response = await client.PostAsJsonAsync(_apiConfig.Value.Host + uri, postData);
+
+            var statusCode = response.StatusCode;
             var model = await response.Content.ReadFromJsonAsync<Tout>();
 
             return model;
