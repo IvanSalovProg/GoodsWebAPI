@@ -98,3 +98,7 @@ C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\
 C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.dll
 C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\refint\Goods.dll
 C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.pdb
+D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\AutoMapper.dll
+D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\GoodsCore.dll
+D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\GoodsCore.pdb
