@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "dzRhWzdTQGgIVtf7aHDZCtzq5XjxyPm9Ji8dwiNbOuM=",
+  "Hash": "5EAc3X9VOqonq6/pN3R8JphWvMFKBcTX3/sccNiip+4=",
   "Source": "GoodsMVC",
   "BasePath": "_content/GoodsMVC",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
-      "Version": 2,
-      "Source": "Goods",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "GoodsMVC\\wwwroot",
