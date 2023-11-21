@@ -4,11 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+
 #nullable disable
 
 namespace Goods.Migrations
 {
-    [DbContext(typeof(GoodsAppContext))]
+    [DbContext(typeof(GoodAppContext))]
     partial class GoodsAppContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

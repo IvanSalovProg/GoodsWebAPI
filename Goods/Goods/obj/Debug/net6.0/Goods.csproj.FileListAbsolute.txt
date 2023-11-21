@@ -88,3 +88,13 @@ D:\Салов И.Д\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.genruntimecon
 D:\Салов И.Д\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\ref\Goods.dll
 D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 D:\Салов И.Д\GoodsWebAPI\Goods\Goods\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.AssemblyInfo.cs
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.dll
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\refint\Goods.dll
+C:\Users\HP\Desktop\ИванУчеба\GoodsWebAPI\Goods\Goods\obj\Debug\net6.0\Goods.pdb

@@ -1,5 +1,7 @@
 ﻿using Goods.Models;
+using GoodsCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Goods.Controllers
 {
@@ -7,9 +9,9 @@ namespace Goods.Controllers
     [Route("[controller]")]
     public class GroupController : Controller
     {
-        private GoodsAppContext _context;
+        private GoodAppContext _context;
 
-        public GroupController(GoodsAppContext context)
+        public GroupController(GoodAppContext context)
         {
             _context = context;
         }

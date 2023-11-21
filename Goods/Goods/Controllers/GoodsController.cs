@@ -1,5 +1,8 @@
-﻿using Goods.Models;
+﻿using AutoMapper;
+using Goods.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using GoodsCore.Models;
 
 namespace Goods.Controllers
 {
@@ -7,11 +10,11 @@ namespace Goods.Controllers
     [Route("[controller]")]
     public class GoodsController : Controller
     {
-        private GoodsAppContext _context;
+        private GoodAppContext _context;
 
         private readonly IMapper _mapper;
 
-        public GoodsController(IMapper mapper, GoodsAppContext context)
+        public GoodsController(IMapper mapper, GoodAppContext context)
         {
             _context = context;
             _mapper = mapper;
@@ -20,56 +23,51 @@ namespace Goods.Controllers
         [HttpPut]
         public void Put([FromBody] GoodsAddDto model)
         {
-            var googs = _mapper.Map<GoogsAddDto, Googs>(model);
+            var goods = _mapper.Map<GoodsAddDto, Good>(model);
 
-            _context.Googs.Add(googs);
+            _context.Goods.Add(goods);
             _context.SaveChanges();
         }
 
         [HttpPost]
-        public void Post(GoogsEditDto student)
+        public void Post(GoodsEditDto student)
         {
-            var existStudent = _context.Googs.FirstOrDefault(x => x.Id == student.Id);
+            var existStudent = _context.Goods.FirstOrDefault(x => x.Id == student.Id);
 
             if (existStudent != null)
             {
                 _mapper.Map(student, existStudent);
 
-                _context.Googs.Update(existStudent);
+                _context.Goods.Update(existStudent);
                 _context.SaveChanges();
             }
         }
 
         [HttpGet]
         [Route("GetOne")]
-        public GoogsGetDto? Get(int id)
+        public GoodsGetDto? Get(int id)
         {
-            var googs = _context.Googs.Include(p => p.Group).FirstOrDefault(x => x.Id == id);
+            var goods = _context.Goods.Include(p => p.Group).FirstOrDefault(x => x.Id == id);
 
-            if (googs == null) return null;
+            if (goods == null) return null;
 
-            return GoogsGetDto(googs);
+            return GoodsGetDto(goods);
         }
 
         [HttpPost]
         [Route("GetAll")]
-        public GoogsGetAllDto GetAll([FromBody] GoogsFilterDto filter)
+        public GoodsGetAllDto GetAll([FromBody] GoodsFilterDto filter)
         {
-            var query = _context.Googs.AsQueryable();
+            var query = _context.Goods.AsQueryable();
 
-            if (filter.FirstName != null)
+            if (filter.NameGoods != null)
             {
-                query = query.Where(x => x.FirstName.Contains(filter.FirstName));
+                query = query.Where(x => x.NameGoods.Contains(filter.NameGoods));
             }
 
-            if (filter.LastName != null)
+            if (filter.ProductCategory != null)
             {
-                query = query.Where(x => x.LastName.Contains(filter.LastName));
-            }
-
-            if (filter.Email != null)
-            {
-                query = query.Where(x => x.Email.Contains(filter.Email));
+                query = query.Where(x => x.ProductCategory.Contains(filter.ProductCategory));
             }
 
             if (filter.GroupId != null)
@@ -77,22 +75,22 @@ namespace Goods.Controllers
                 query = query.Where(x => x.GroupId == filter.GroupId);
             }
 
-            var Googs = query.ToList()
-                .Select(googs => GoogsGetDto(googs))
+            var Goods = query.ToList()
+                .Select(goods => GoodsGetDto(goods))
                 .ToList();
 
-            var model = new GoogsGetAllDto
+            var model = new GoodsGetAllDto
             {
-                Googs = Googs,
+                Goods = Goods,
                 Groups = _context.Groups.Select(x => new GroupDto { Id = x.Id, Name = x.Name }).ToList()
             };
 
             return model;
         }
 
-        private GoogsGetDto GoogsGetDto(Googs googs)
+        private GoodsGetDto GoodsGetDto(Good goods)
         {
-            var result = _mapper.Map<GoogsGetDto>(googs);
+            var result = _mapper.Map<GoodsGetDto>(goods);
 
             return result;
         }
@@ -100,11 +98,11 @@ namespace Goods.Controllers
         [HttpDelete]
         public void Delete(int id)
         {
-            var googs = _context.Googs.FirstOrDefault(x => x.Id == id);
+            var goods = _context.Goods.FirstOrDefault(x => x.Id == id);
 
-            if (googs != null)
+            if (goods != null)
             {
-                _context.Googs.Remove(googs);
+                _context.Goods.Remove(goods);
                 _context.SaveChanges();
             }
         }
