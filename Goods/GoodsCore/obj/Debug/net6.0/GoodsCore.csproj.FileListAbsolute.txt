@@ -21,3 +21,15 @@ D:\Салов И.Д\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.dll
 D:\Салов И.Д\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\refint\GoodsCore.dll
 D:\Салов И.Д\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.pdb
 D:\Салов И.Д\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\ref\GoodsCore.dll
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\bin\Debug\net6.0\GoodsCore.deps.json
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\bin\Debug\net6.0\GoodsCore.dll
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\bin\Debug\net6.0\GoodsCore.pdb
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.csproj.AssemblyReference.cache
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.AssemblyInfoInputs.cache
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.AssemblyInfo.cs
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.csproj.CoreCompileInputs.cache
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.dll
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\refint\GoodsCore.dll
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\GoodsCore.pdb
+C:\Users\Ivan.Salov\Desktop\GoodsWebAPI\Goods\GoodsCore\obj\Debug\net6.0\ref\GoodsCore.dll

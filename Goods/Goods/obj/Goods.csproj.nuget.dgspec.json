@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj": {}
+    "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj": {
+    "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj",
         "projectName": "GoodsCore",
-        "projectPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\obj\\",
+        "projectPath": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj",
+        "packagesPath": "C:\\Users\\Ivan.Salov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\GoodsCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ivan.Salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,25 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj": {
+    "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
+        "projectUniqueName": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
         "projectName": "Goods",
-        "projectPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\obj\\",
+        "projectPath": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
+        "packagesPath": "C:\\Users\\Ivan.Salov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\Goods\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ivan.Salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj"
+              "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj": {
+                "projectPath": "C:\\Users\\Ivan.Salov\\Desktop\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj"
               }
             }
           }
@@ -146,8 +137,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -159,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
