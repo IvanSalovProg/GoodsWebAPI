@@ -1672,24 +1672,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Ivan.Salov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
+      "projectUniqueName": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
       "projectName": "Goods",
-      "projectPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\Goods\\obj\\",
+      "projectPath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\Goods.csproj",
+      "packagesPath": "C:\\Users\\Ivan.Salov\\.nuget\\packages\\",
+      "outputPath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\Goods\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Ivan.Salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1703,8 +1698,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\ИванУчеба\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj"
+            "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj": {
+              "projectPath": "D:\\Салов И.Д\\GoodsWebAPI\\Goods\\GoodsCore\\GoodsCore.csproj"
             }
           }
         }
@@ -1771,7 +1766,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
